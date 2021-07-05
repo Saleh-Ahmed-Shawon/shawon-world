@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.orange-color{
+    color: orange;
+}
+.container{
+    display: flex;
+    
+}
+.bg-1{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.bg-2{
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.pad{
+    padding-right: 10%;
+}
+.half-width{
+    float: left;
+    width: 50%;
+    padding: 5%;
+}
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange , tomato);
+    color: white;
+    border-radius: 10px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    text-align: justify;
+}
+.img-1{
+   width: 100%;
+   float: left;
+}
+.all{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.half-width-1{
+    float: left;
+    padding-left: 20%;
+}
+.hh2{
+    margin-bottom: 100px;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.box-2{
+    margin-left: 3%;
+    border-left: 7px solid;
+    border-image: linear-gradient(green , red);
+    border-image-slice: 1;
+    box-shadow: 10px 20px 40px gray;
+}
+
+.box-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue , red);
+    border-image-slice: 1;
+    box-shadow: 10px 20px 40px gray;
+
+}
+
+footer p{
+    text-align: center;
+}
+
